@@ -52,6 +52,6 @@ export default {
             },
         },
     },
-    content: ['./src/**/*.tsx', 'node_modules/flowbite-react/lib/esm/**/*.js'],
+    content: ['./src/**/*.tsx'],
     plugins: [],
 } satisfies Config;

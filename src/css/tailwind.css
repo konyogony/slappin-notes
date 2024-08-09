@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 #root {
-    @apply min-h-screen scroll-smooth bg-gray-700 font-[Inter] font-medium text-gray-200;
+    @apply m-0 flex max-h-screen flex-col overflow-hidden scroll-smooth bg-gray-700 font-[Inter] font-medium text-gray-200;
 }
 
 ::-webkit-scrollbar {
@@ -16,10 +16,6 @@
     @apply rounded-xl bg-[#333333] hover:bg-[#4e4e4e];
 }
 
-#react-refresh-overlay,
-#webpack-dev-server-client-overlay {
-    @apply hidden;
-}
 /* 
 #navbar {
     -webkit-app-region: drag;
