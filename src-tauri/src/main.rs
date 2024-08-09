@@ -3,11 +3,12 @@
 
 fn main() {
     tauri::Builder::default()
+        .invoke_handler(tauri::generate_handler![login])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
 }
 
-// #[tauri::command]
-// fn custom_commands() {
-//     println!("custom_commands");
-// }
+#[tauri::command]
+fn login() {
+    println!("custom_commands");
+}
