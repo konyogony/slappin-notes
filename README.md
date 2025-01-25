@@ -1,3 +1,5 @@
+# NGL KINDA USELESS SINCE NOTION WAY BETTER
+
 # On hold until `konyogony.dev` is finished
 Gotta finish up my DB and API first
 
